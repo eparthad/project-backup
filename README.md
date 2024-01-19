@@ -21,6 +21,19 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+
+## Package Installation
+
+For backuping project, we need to install two package.
+- **Project Backup Package-[https://spatie.be/docs/laravel-backup/v8/introduction](https://spatie.be/docs/laravel-backup/v8/introduction)**
+- **Google Drive Connection Package-[https://github.com/masbug/flysystem-google-drive-ext](https://github.com/masbug/flysystem-google-drive-ext)**
+
+### Project Backup Package
+
+First install the package by this command.
+- composer require spatie/laravel-backup
+- php artisan vendor:publish --provider="Spatie\Backup\BackupServiceProvider"
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
